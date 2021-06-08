@@ -1,11 +1,21 @@
 # arxivの学問領域の指定
-subject: 'cat:cs.*'
+subject: 'cat:cs.AI' OR 'cat:cs.CL' or 'cat:cs.CV' or 'cat:cs.HC' or 'cat:cs.LG' or 'cat:cs.MM' or 'cat:cs.RO' or 'cat:cs.SC'
 
 # 検索キーワード
 keywords:
-        kaggle: 3
-        resnet: 3
-        anomaly detection: 1
+        robot: 1
+        robotic: 1
+        language: 1
+        linguistic: 1
+        description: 1
+        instruction: 1
+        command: 1
+        multimodal: 3
+        multimodality: 3
+        ground: 3
+        grounding: 3
+        cross-modal: 2
+        video: 1
 
 # 通知の閾値
 score_threshold: 0
